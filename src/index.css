@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .box1 {
+        height: 200px;
+        width: 300px;
+        padding: 30px;
+        
+    }
+
+    .title {
+        font-size: large;
+        font-weight: bold;
+    }
+    .des{
+        margin-top:20px ;
+        margin-bottom:20px ;
+
+    }
+    button{
+        border: 1px solid green;
+        padding: 10px;
+    }
+}
